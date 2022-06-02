@@ -20,27 +20,6 @@ cap.set(3,widthImg)
 cap.set(4,heightImg)
 
 
-# namedWindow('Trackbars')
-# cv2.createTrackbar('thres1','Trackbars',200,300,empty)
-# cv2.createTrackbar('thres2','Trackbars',200,300,empty)
-
-# t1 = cv2.getTrackbarPos('thres1','Trackbars')
-# t2 = cv2.getTrackbarPos('thres2','Trackbars')
-
-
-# def fitness(list_):
-#     sum(list_)
-
-# def compare(item1, item2):
-#     if fitness(item1) < fitness(item2):
-#         return -1
-#     elif fitness(item1) > fitness(item2):
-#         return 1
-#     else:
-#         return 0
-
-# # Calling
-# list.sort(key=compare)
 
 def preProcessing(img):
     kernel = np.ones((5,5))
@@ -115,8 +94,8 @@ while True:
 
     imgOutput = getWarp(img,biggest)
 
-    cv2.imshow('webcam',img)
-    cv2.imshow('result',imgThres)
+    #cv2.imshow('webcam',img)
+    #cv2.imshow('result',imgThres)
     cv2.imshow('contour',imgContour)
     cv2.imshow('warped',imgOutput)
     
