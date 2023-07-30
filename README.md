@@ -35,7 +35,9 @@ To terminate the application, press the 'q' key.
 
 3. Navigate to the project directory and execute the script using the following command:
 
-```python document_scanner.py```
+```
+python document_scanner.py
+```
 
 
 4. The webcam will open, and you can position a document within the camera's view.
