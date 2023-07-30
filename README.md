@@ -48,7 +48,7 @@ To terminate the application, press the 'q' key.
 
 ## Credits
 
-This project was created by [YourName]. It is inspired by various computer vision techniques and the power of OpenCV.
+This project was created by Abhisindh Chatterjee. It is inspired by various computer vision techniques and the power of OpenCV.
 
 ## License
 
