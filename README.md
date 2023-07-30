@@ -42,9 +42,9 @@ To terminate the application, press the 'q' key.
 
 5. When you're ready, press the 'q' key to terminate the application and exit.
 
-## Example Output
+<-- ## Example Output
 
-![Document Scanner Output](example_output.jpg)
+![Document Scanner Output](example_output.jpg) -->
 
 ## Credits
 
